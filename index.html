@@ -5,7 +5,27 @@
 	<title>Document</title>
 </head>
 <body>
+	<form action="#">
+		<div>Fill the form to add a Cookie.</div> 
+		<div>Имя: <input type="text" name="name"></div>
+		<div>Значение: <input type="text" name="value"></div>
+		<div>Срок годности (количество дней): <input type="text" name="expires"></div>
+		<div><input id="addCookie" type="submit" value="Add Cookie"></div>
+	</form>
+
 	<script src='cookieSheet.js'></script>
+	<style>
+		div {
+			margin-bottom: 5px;
+		}
+		table {
+			border-collapse: collapse;
+			border: 1px solid gray;
+		}
+		table td {
+			border: 1px solid gray;
+			padding: 5px;
+		}
+	</style>
 </body>
 </html>
-
